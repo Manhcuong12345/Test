@@ -5,7 +5,7 @@ const fs = require("fs");
 
 class Productcontroller {
   static async createProduct(req, res) {
-    const product = await new Product();
+    const product = await new Product(req.body);
     product.save();
     if (!product)
       return res.status(400).send({ error_message: "Not save product" });
