@@ -68,8 +68,10 @@ npm install
 npm start
 ```
 
-##Kết quả:
+##Kết quả
+
 Localhost
+
 |Postman|[http://localhost:3000/api/category]|
 
 |Postman|[http://localhost:3000/api/product]|
