@@ -28,11 +28,11 @@
 
 ## Mô tả project
 
--Folder model:là nơi xây dựng dữ liệu các filed, để thực hiện kết nối, để lưu dữ liệu vào database.
+-Folder model: là nơi xây dựng dữ liệu các filed, để thực hiện kết nối, để lưu dữ liệu vào database.
 
--Folder controller:nơi xử lý code các thao tác dữ liệu thêm, xóa, sửa, lọc dữ liệu...
+-Folder controller: nơi xử lý code các thao tác dữ liệu thêm, xóa, sửa, lọc dữ liệu...
 
--Folder route:nơi import đường dẫn từ controller thực hiện các phương thức get,post,put,delete... từ controllerr.
+-Folder route: nơi import đường dẫn từ controller thực hiện các phương thức get,post,put,delete... từ controllerr.
 
 -Folder start_up: nơi import đường dẫn từ route thực hiện định tuyến cấu hình đường đi api, đường dẫn url.
 
@@ -55,12 +55,13 @@ npm install dotenv
 ...
 ```
 
-Sau khi clone project về
-Cài đặt biến môi trường khi clone về tạo file .env bỏ đường dẫn
+Sau khi clone project về cài đặt biến môi trường khi clone về tạo file .env đường dẫn
 
 ```sh
 DB_CONNECT=mongodb+srv://manh:manh@cluster0.mkyci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 ```
+
+Khởi động project
 
 ```sh
 cd name project
@@ -68,14 +69,16 @@ npm install
 npm start
 ```
 
-##Kết quả
+## Kết quả
 
-Localhost
+Localhost:
 
-[http://localhost:3000/api/category]|
+http://localhost:3000/api/category
 
-[http://localhost:3000/api/product]
+http://localhost:3000/api/product
 
-[https://test-review123.herokuapp.com/api/product]
+Deploy heroku:
 
-[https://test-review123.herokuapp.com/api/category]
+https://test-review123.herokuapp.com/api/product
+
+https://test-review123.herokuapp.com/api/category
