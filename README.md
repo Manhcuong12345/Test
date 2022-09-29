@@ -72,10 +72,10 @@ npm start
 
 Localhost
 
-|Postman|[http://localhost:3000/api/category]|
+[http://localhost:3000/api/category]|
 
-|Postman|[http://localhost:3000/api/product]|
+[http://localhost:3000/api/product]
 
-|Heroku|[https://test-review123.herokuapp.com/api/product]|
+[https://test-review123.herokuapp.com/api/product]
 
-|Heroku|[https://test-review123.herokuapp.com/api/category]|
+[https://test-review123.herokuapp.com/api/category]
